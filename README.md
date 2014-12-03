@@ -9,8 +9,7 @@ Some screen shots will be here.
 
 ## Installation
 
-1. Download [AlfredMetacpanWorkflow.zip](#) to your computer.
-1. Then, expand it and double click `Metacpan.alfredworkflow`.
+Download [metacpan.alfredworkflow](#) to your computer and double click it.
 
 ## Licence
 
