@@ -1,0 +1,6 @@
+package: github.com/handlename/alfred-metacpan-workflow
+import:
+- package: github.com/codegangsta/cli
+  version: ^1.19.1
+- package: github.com/handlename/go-metacpan
+  version: ^0.0.1
