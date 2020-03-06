@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/codegangsta/cli"
-	"github.com/handlename/alfred-metacpan-workflow"
+	wf "github.com/handlename/alfred-metacpan-workflow"
 )
 
 var logger = log.New(os.Stderr, "DEBUG: ", log.Ltime|log.Lshortfile)
@@ -26,7 +26,7 @@ func debugf(format string, v ...interface{}) {
 func main() {
 	app := cli.NewApp()
 	app.Name = "Alfred Metacpan Workflow"
-	app.Version = "0.0.1"
+	app.Version = "0.0.4"
 	app.Usage = ""
 	app.Author = "handlename"
 	app.Email = "nagata{at}handlena.me"

@@ -1,0 +1,4 @@
+github.com/codegangsta/cli v1.19.1 h1:+wkU9+nidApJ051CVhVGnj5li64qOfLPz7eZMn2DPXw=
+github.com/codegangsta/cli v1.19.1/go.mod h1:/qJNoX69yVSKu5o4jLyXAENLRyk1uhi7zkbQ3slBdOA=
+github.com/handlename/go-metacpan v0.0.1 h1:pll7xdz/MtsguUgv6MCa02FWhCgR9bCm7bBHjrd6UiM=
+github.com/handlename/go-metacpan v0.0.1/go.mod h1:rSM8tzgYPBUpxxXCGlEt4Ag4dhkvRuh5L2DhPvNpOXo=
