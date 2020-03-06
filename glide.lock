@@ -1,8 +1,0 @@
-hash: f9b997d3477bdb7b106cf32bca06db54b8d1161824894c3e25c656c79656baa9
-updated: 2017-06-06T14:46:01.021477495+09:00
-imports:
-- name: github.com/codegangsta/cli
-  version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
-- name: github.com/handlename/go-metacpan
-  version: 5911b889558226a242e1bb5099b878bdd8b4d2b2
-testImports: []
