@@ -3,7 +3,7 @@ name: Go
 on: [push]
 jobs:
   build:
-    name: Build
+    name: Test
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.13
@@ -24,6 +24,9 @@ jobs:
 
       - name: Test
         run: go test -race -coverprofile=coverage.txt -covermode=atomic ./...
+
+      - name: Make workflow
+        run: mkdir -p dist && make
       #- name: Upload coverage
       #run: bash <(curl -s https://codecov.io/bash)
       #env:
